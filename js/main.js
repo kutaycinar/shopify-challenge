@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 		// AJAX call to get movies
 		$.ajax({
-			url: "https://www.omdbapi.com/?apikey=504a7614",
+			url: "http://www.omdbapi.com/?apikey=504a7614",
 			data: {
 				"s": search
 			},
@@ -72,6 +72,11 @@ $(document).on('click', '.nominate', function() {
 
 		// Add to nomination list
 		$('#nomination-list').append('<li>' + name + btn + '</li>');
+
+		if (nominations.length == 5) {
+			alert("You have finished nominating 5 movies. Good job!")
+		}
+
 
 	} else {
 		alert("You can only add up to 5 nominations.");
