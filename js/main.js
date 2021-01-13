@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 		// AJAX call to get movies
 		$.ajax({
-			url: "http://www.omdbapi.com/?apikey=504a7614",
+			url: "https://www.omdbapi.com/?apikey=504a7614",
 			data: {
 				"s": search
 			},
