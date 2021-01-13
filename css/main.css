@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+div {
+	transition-duration: 0.5s;
+}
+
+.top-header {
+	background-color: #fbf7ed;
+	color: #004c3f;
+	padding: 3em;
+}
+
+.search-area {
+	background-color: #004c3f;
+	color: #fbf7ed;
+	padding: 1em;
+}
+
+
+.nomination-area {
+	background-color: #004c3f;
+	color: #fbf7ed;
+	height: 800px;
+
+}
+
+
+.suggestion-area {
+	background-color: #004c3f;
+	color: #fbf7ed;
+	border-right: 1px dashed #fbf7ed;
+	height: 800px;
+}
+
+.nomination-list {
+	text-align: left;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 1.25em;
+
+}
+
+h1 {
+	text-align: center;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 3em;
+}
+
+h2 {
+	text-align: center;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 1.5em;
+}
+
+h3 {
+	text-align: left;
+	float: left;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 1em;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 10px;
+}
+
+.nominate {
+	float: right;
+}
+
+.remove {
+	float: right;
+}
