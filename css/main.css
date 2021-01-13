@@ -20,7 +20,7 @@ div {
 .nomination-area {
 	background-color: #004c3f;
 	color: #fbf7ed;
-	height: 62vh;
+	height: 1px;
 
 }
 
@@ -29,7 +29,7 @@ div {
 	background-color: #004c3f;
 	color: #fbf7ed;
 	border-right: 1px dashed #fbf7ed;
-	height: 62vh;
+	height: 1px;
 }
 
 .nomination-list {
