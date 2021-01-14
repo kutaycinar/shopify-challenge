@@ -73,9 +73,8 @@ $(document).on('click', '.nominate', function() {
 		// Add to nomination list
 		$('#nomination-list').append('<li>' + name + btn + '</li>');
 
-		if (nominations.length == 5) {
-			alert("You have finished nominating 5 movies. Good job!")
-		}
+		// Update nomination header
+		$('#nomination-header').html("NOMINATIONS: "+nominations.length+"/5");
 
 
 	} else {
@@ -93,6 +92,9 @@ $(document).on('click', '.remove', function() {
 
 	// Enable nominate button if movie is displayed
 	$("#n_" + id).removeAttr("disabled");
+
+	// Update nomination header
+	$('#nomination-header').html("NOMINATIONS: "+nominations.length+"/5");
 
 	// Delete list item
 	$(this).closest('li').remove();
