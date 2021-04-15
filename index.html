@@ -18,7 +18,11 @@
 
 <body>
 
-
+	<div class="alert alert-danger" role="alert" style="display: none;">
+		<button type="button" class="btn-close" id="dismiss-alert"></button>
+		<strong>Oops!</strong> You can only add up to 5 nominations.
+	</div>
+	
 	<div class="container">
 
 		<div class="row">
@@ -33,21 +37,16 @@
 			</div>
 		</div>
 
-
 		<div class="row">
 			<div class="col suggestion-area">
 				<ul id="suggestion-list" class="nomination-list"></ul>
 			</div>
 			<div class="col nomination-area">
 				<h2 id="nomination-header">NOMINATIONS:</h2>
-
 				<hr>
-
 				<ul id="nomination-list" class="nomination-list"></ul>
-
 			</div>
 		</div>
-
 
 	</div>
 

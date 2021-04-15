@@ -78,7 +78,8 @@ $(document).on('click', '.nominate', function() {
 
 
 	} else {
-		alert("You can only add up to 5 nominations.");
+		$(".alert").show();
+		// alert("You can only add up to 5 nominations.");
 	}
 });
 
@@ -96,6 +97,16 @@ $(document).on('click', '.remove', function() {
 	// Update nomination header
 	$('#nomination-header').html("NOMINATIONS: "+nominations.length+"/5");
 
+	// Hide alert if not hidden
+	if ($(".alert").is(":visible")){
+		$(".alert").hide();
+	}
+
 	// Delete list item
 	$(this).closest('li').remove();
+});
+
+// Alert close button
+$('#dismiss-alert').click(function() {
+    $('.alert').hide();
 });

@@ -16,15 +16,12 @@ div {
 	padding: 1em;
 }
 
-
 .nomination-area {
 	background-color: #004c3f;
 	color: #fbf7ed;
 	height: 62vh;
 	overflow: auto;
-
 }
-
 
 .suggestion-area {
 	background-color: #004c3f;
@@ -35,11 +32,9 @@ div {
 }
 
 .nomination-list {
-	text-align: left;
 	font-family: "Roboto";
 	font-weight: 400;
 	font-size: 1.25em;
-
 }
 
 h1 {
